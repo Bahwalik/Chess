@@ -8,6 +8,6 @@
  */
 public class CommandValidator {
     public boolean validate(String line){
-        return line.matches("^[LBSKF]?[a-h][1-8]-[LBSKF]?[a-h][1-8]$");
+        return line.matches("^[LBSKF]?[A-H][1-8]-[LBSKF]?[A-H][1-8]$");
     }
 }
